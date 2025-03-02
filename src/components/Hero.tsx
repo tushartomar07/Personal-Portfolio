@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden relative bg-gradient-to-b from-portfolio-light to-white">
+    <section className="pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden relative bg-transparent">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 right-10 w-64 h-64 bg-portfolio-light-blue rounded-full opacity-20 blur-3xl"></div>
         <div className="absolute bottom-10 left-10 w-72 h-72 bg-portfolio-blue rounded-full opacity-10 blur-3xl"></div>
