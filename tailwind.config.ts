@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom portfolio colors
+				portfolio: {
+					'blue': '#0077ED',
+					'light-blue': '#E6F2FF',
+					'dark': '#1A1F2C',
+					'light': '#F5F5F7',
+					'gray': '#8E9196',
+					'light-gray': '#F2F2F2',
 				}
 			},
 			borderRadius: {
@@ -70,26 +80,68 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' },
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' },
+				},
+				'fade-in': {
+					from: { opacity: '0' },
+					to: { opacity: '1' },
+				},
+				'fade-up': {
+					from: { 
+						opacity: '0',
+						transform: 'translateY(20px)'
 					},
-					to: {
-						height: '0'
+					to: { 
+						opacity: '1',
+						transform: 'translateY(0)'
+					},
+				},
+				'slide-in-right': {
+					from: { 
+						opacity: '0',
+						transform: 'translateX(20px)'
+					},
+					to: { 
+						opacity: '1',
+						transform: 'translateX(0)'
+					},
+				},
+				'soft-bounce': {
+					'0%, 100%': { 
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
 					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'fade-up': 'fade-up 0.5s ease-out',
+				'slide-in-right': 'slide-in-right 0.5s ease-out',
+				'soft-bounce': 'soft-bounce 3s infinite ease-in-out',
+				'delayed-fade-up': 'fade-up 0.5s ease-out 0.2s forwards',
+				'long-delayed-fade-up': 'fade-up 0.5s ease-out 0.4s forwards'
+			},
+			fontFamily: {
+				sans: [
+					'SF Pro Display',
+					'-apple-system',
+					'BlinkMacSystemFont',
+					'Segoe UI',
+					'Roboto',
+					'Helvetica Neue',
+					'Arial',
+					'sans-serif'
+				],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
