@@ -69,6 +69,8 @@ export default {
 					'light': '#F5F5F7',
 					'gray': '#8E9196',
 					'light-gray': '#F2F2F2',
+					'purple': '#9b87f5',
+					'amber': '#f5c287',
 				}
 			},
 			borderRadius: {
@@ -169,6 +171,9 @@ export default {
 					'sans-serif'
 				],
 			},
+			opacity: {
+				'15': '0.15',
+			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
