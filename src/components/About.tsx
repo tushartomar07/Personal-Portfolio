@@ -41,7 +41,7 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <div className="animate-on-scroll">
               <p className="text-lg mb-4">
-                As a Level 3 Network Engineer & Software Developer with 5+ years of experience, I specialize in building robust IT infrastructure and developing cutting-edge applications.
+                As a Level 3 Network Engineer & Software Developer with 3+ years of experience, I specialize in building robust IT infrastructure and developing cutting-edge applications.
               </p>
               <p className="text-lg mb-4">
                 My BTech degree in Computer Science Engineering provided me with a strong foundation, which I've leveraged to successfully execute multiple enterprise projects and freelance solutions.
@@ -58,7 +58,7 @@ const About: React.FC = () => {
               </div>
               <div className="glass-card rounded-xl p-4 border border-portfolio-light-blue/30">
                 <h3 className="text-lg font-medium text-portfolio-blue mb-2">Experience</h3>
-                <p className="text-sm">5+ Years of Professional Experience</p>
+                <p className="text-sm">3+ Years of Professional Experience</p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ const About: React.FC = () => {
           <div className="relative animate-on-scroll">
             <div className="aspect-square rounded-2xl overflow-hidden bg-white shadow-xl border border-white">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                src="https://images.unsplash.com/photo-1597239450996-ea7c2c564412?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Professional portrait" 
                 className="w-full h-full object-cover opacity-90"
                 style={{ objectPosition: 'center' }}

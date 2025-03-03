@@ -33,25 +33,25 @@ const Projects: React.FC = () => {
     {
       title: "Enterprise Data Center Network Setup",
       description: "Designed a high-availability, multi-layered network with Cisco Nexus & Palo Alto Firewalls.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      image: "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1Nnx8fGVufDB8fHx8fA%3D%3D",
       tags: ["Cisco Nexus", "Palo Alto", "High Availability"]
     },
     {
       title: "AWS Cloud Migration for a Fintech Company",
       description: "Migrated on-prem workloads to AWS, implementing serverless computing and auto-scaling.",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhdGFjZW50ZXJ8ZW58MHx8MHx8fDA%3D",
       tags: ["AWS", "Serverless", "Auto-scaling"]
     },
     {
       title: "Automated Network Provisioning",
       description: "Developed Python & Ansible scripts for zero-touch provisioning (ZTP) and network automation.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      image: "https://images.unsplash.com/photo-1691435828932-911a7801adfb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIyfHx8ZW58MHx8fHx8",
       tags: ["Python", "Ansible", "ZTP"]
     },
     {
       title: "Hybrid Cloud Integration",
       description: "Connected on-prem servers with AWS & Azure, ensuring a seamless multi-cloud environment.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      image: "https://images.unsplash.com/photo-1597733336794-12d05021d510?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDgzfHx8ZW58MHx8fHx8",
       tags: ["Multi-cloud", "Azure", "AWS"]
     }
   ];
@@ -60,25 +60,25 @@ const Projects: React.FC = () => {
     {
       title: "Inventory Management System",
       description: "Developed a full-stack web app for real-time stock tracking & analytics using React, Node.js & MongoDB.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      image: "https://images.unsplash.com/photo-1567335632614-abebe179111e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGludmVudG9yeXxlbnwwfHwwfHx8MA%3D%3D",
       tags: ["React", "Node.js", "MongoDB"]
     },
     {
       title: "AI-Powered Chatbot for Customer Support",
       description: "Built an NLP-based chatbot using Python, OpenAI API & Flask, reducing manual queries by 60%.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      image: "https://images.unsplash.com/photo-1644088379091-d574269d422f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
       tags: ["Python", "OpenAI", "Flask"]
     },
     {
       title: "Automation Scripts for Server & Network Monitoring",
       description: "Created a custom Python-based monitoring tool that integrates with Prometheus & Grafana.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      image: "https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D",
       tags: ["Python", "Prometheus", "Grafana"]
     },
     {
       title: "E-commerce Website & Mobile App",
       description: "Designed & deployed a React Native mobile app & Next.js web store with payment gateway integration.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      image: "https://images.unsplash.com/photo-1586880244386-8b3e34c8382c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGVjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D",
       tags: ["React Native", "Next.js", "Payment Gateway"]
     }
   ];

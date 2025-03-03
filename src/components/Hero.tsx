@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
             "text-xl md:text-2xl mb-8 max-w-2xl mx-auto transition-all duration-700 delay-200",
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           )}>
-            Level 3 Network Engineer & Full-Stack Developer with 5+ years of experience blending high-performance IT infrastructure with cutting-edge software solutions.
+            Level 3 Network Engineer & Full-Stack Developer with 3+ years of experience blending high-performance IT infrastructure with cutting-edge software solutions.
           </p>
           
           <div className={cn(
