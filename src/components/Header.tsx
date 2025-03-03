@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           href="#" 
           className="text-xl font-semibold text-portfolio-dark transition-all duration-300 hover:text-portfolio-blue"
         >
-          Portfolio
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-purple-600">Tushar Tomar</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -95,8 +95,8 @@ const Header: React.FC = () => {
           )}
         >
           <div className="flex justify-between items-center p-4">
-            <a href="#" className="text-xl font-semibold text-portfolio-dark">
-              Portfolio
+            <a href="#" className="text-xl font-semibold">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-purple-600">Tushar Tomar</span>
             </a>
             <button 
               className="p-2 text-portfolio-dark rounded-md"

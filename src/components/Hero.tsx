@@ -77,7 +77,8 @@ const Hero: React.FC = () => {
             "font-medium mb-6 transition-all duration-700 delay-100",
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           )}>
-            Empowering Networks & Software 
+            <span className="inline-block text-2xl md:text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-purple-600 mb-2">Tushar Tomar</span>
+            <span className="block">Empowering Networks & Software</span>
             <span className="block text-purple-600">with Innovation & Expertise</span>
           </h1>
           
