@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,7 +62,6 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom portfolio colors
 				portfolio: {
 					'blue': '#0077ED',
 					'light-blue': '#E6F2FF',
@@ -118,6 +116,32 @@ export default {
 					'50%': {
 						transform: 'translateY(-10px)'
 					}
+				},
+				'float': {
+					'0%, 100%': { 
+						transform: 'translateY(0) rotate(0deg)'
+					},
+					'50%': {
+						transform: 'translateY(-15px) rotate(5deg)'
+					}
+				},
+				'float-delayed': {
+					'0%, 100%': { 
+						transform: 'translateY(0) rotate(0deg)'
+					},
+					'50%': {
+						transform: 'translateY(-10px) rotate(-5deg)'
+					}
+				},
+				'slow-pulse': {
+					'0%, 100%': { 
+						opacity: '0.1',
+						transform: 'scale(1)'
+					},
+					'50%': {
+						opacity: '0.2',
+						transform: 'scale(1.05)'
+					}
 				}
 			},
 			animation: {
@@ -128,7 +152,10 @@ export default {
 				'slide-in-right': 'slide-in-right 0.5s ease-out',
 				'soft-bounce': 'soft-bounce 3s infinite ease-in-out',
 				'delayed-fade-up': 'fade-up 0.5s ease-out 0.2s forwards',
-				'long-delayed-fade-up': 'fade-up 0.5s ease-out 0.4s forwards'
+				'long-delayed-fade-up': 'fade-up 0.5s ease-out 0.4s forwards',
+				'float': 'float 6s ease-in-out infinite',
+				'float-delayed': 'float-delayed 7s ease-in-out infinite',
+				'slow-pulse': 'slow-pulse 4s ease-in-out infinite',
 			},
 			fontFamily: {
 				sans: [
