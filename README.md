@@ -44,12 +44,6 @@ This project is built with .
 - TypeScript
 - React
 - shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6711666e-368a-4fdb-8a77-6e0912ce6731) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
+- Tailwind CSS.
 
 We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
